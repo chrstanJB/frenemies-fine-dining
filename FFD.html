@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="tempLogo2.png">
+    <link rel="stylesheet" href="FFD.css">
+    <title>Frenemies Fine Dining</title>
+</head>
+<body>
+    <header class="site-header">
+        <div class="logo">
+            <img src="tempLogo2.png" alt="Logo icon">
+            <a href="FFD.html" class="returnMainPage">Frenemies Fine Dining</a>
+        </div>
+
+        <nav class="main-nav">
+            <a href="ShopFFD.html">SHOP</a>
+            <a href="AboutFFD.html">ABOUT</a>
+            <a href="ReviewsFFD.html">REVIEWS</a>
+            <a href="ContactFFD.html">CONTACT</a>
+        </nav>
+
+        <div class="header-acts">
+            <button class="cart-btn" onclick="window.location.href='CartFFD.html'">
+                🛒
+                <span id="cartCount">0</span>
+            </button>
+            <button class="login-btn" onclick="window.location.href='LoginFFD.html'">Log In</button>
+        </div>
+    </header>
+
+        <main class="home-content">
+            <section class="left-section">
+                <p class="sec-line">WHERE CATS & DOGS DINE TOGETHER</p>
+                <h1 class="leftsec-FDFY">Fine Dining for Your</h1>
+                <h1 class="leftsec-FRENEMIES">Frenemies</h1>
+                <p class="description">
+                Premium gourmet meals for cats and dogs — crafted with love, 
+                served with flair. Because your pets deserve the best table in the house.
+                </p>
+
+                <div class="search-bar">
+                    <input type="text" id="searchInput" placeholder="🔍︎ Search for meals..." autocomplete="off">
+                    <div id="searchSuggestions"></div>
+                </div>
+                
+                <div class="home-btns">
+                    <button class="shop-btn" onclick="window.location.href='ShopFFD.html'">Shop Now ⟶</button>
+                    <button class="story-btn" onclick="window.location.href='AboutFFD.html'">Our Story</button>
+                </div>
+            </section>
+
+            <section class="right-section">
+                <div class="featured-card">
+                    <div class="featured-image">
+                        <img id="featuredImage" src="" alt="Featured Product" style="display: none;">
+                    </div>
+                    <p class="default-tag" id="featuredCategory">WELCOME TO FRENEMIES</p>
+                    <h2 id="featuredName">Search for meals to preview them here.</h2>
+                    <h3 id="featuredPrice"></h3>
+                    <button class="add-cart" id="featuredBtn" style="display: none;">Add to Cart</button>
+                </div>
+            </section>
+        </main>
+</body>
+<script src="FFD.js"></script>
+</html>

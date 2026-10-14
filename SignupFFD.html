@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="tempLogo2.png">
+    <link rel="stylesheet" href="FFD.css">
+	<title>Frenemies Fine Dining</title>
+</head>
+<body class="auth-page">
+	<header class="site-header">
+            <div class="logo">
+                <img src="tempLogo2.png" alt="Logo icon">
+                <a href="FFD.html" class="returnMainPage">Frenemies Fine Dining</a>
+            </div>
+
+            <nav class="main-nav">
+                <a href="ShopFFD.html">SHOP</a>
+                <a href="AboutFFD.html">ABOUT</a>
+                <a href="ReviewsFFD.html">REVIEWS</a>
+                <a href="ContactFFD.html">CONTACT</a>
+            </nav>
+
+            <div class="header-acts">
+                <button class="cart-btn" onclick="window.location.href='CartFFD.html'">
+                    🛒
+                    <span id="cartCount">0</span>
+                </button>
+                <button class="login-btn" onclick="window.location.href='LoginFFD.html'">Log In</button>
+            </div>
+    </header>
+
+    <div class="auth-content">
+
+        <div class="auth-left">
+            <div class="auth-brand">
+                <h1>Join the <span>finest</span> pet table</h1>
+                <p>
+                    Create your account and start earning Paw
+                    Coins, access exclusive bundles, and treat your
+                    pets to gourmet dining.
+                </p>
+
+                <div class="auth-features">
+                    <div class="auth-feature">
+                        <span>🐱</span>
+                        Shop by Cat, Dog, or Bundle
+                    </div>
+                    <div class="auth-feature">
+                        <span>⛃</span>
+                        Start earning Paw Coins immediately
+                    </div>
+                    <div class="auth-feature">
+                        <span>🎁</span>
+                        Full order history & tracking
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="auth-right">
+            <div class="auth-box">
+                <h2>Create Account</h2>
+                <p>
+                    Already registered?
+                    <a href="LoginFFD.html">Log in here.</a>
+                </p>
+                
+                <form class="auth-form" id="signupForm">
+                    
+                    <div class="auth-row">
+                        <div>
+                            <label>FIRST NAME</label>
+                            <input type="text" id="firstName" required placeholder="Register first name here">
+                        </div>
+                        <div>
+                            <label>LAST NAME</label>
+                            <input type="text" id="lastName" required placeholder="Register last name here">
+                        </div>
+                        <div>
+                            <label>ADDRESS</label>
+                            <input type="text" id="address" required placeholder="Register address here">
+                        </div>
+                    </div>
+
+                    <div class="auth-row">
+                        <div>
+                            <label>CITY</label>
+                            <input type="text" id="city" required placeholder="Enter city here">
+                        </div>
+                        <div>
+                            <label>ZIP CODE</label>
+                            <input type="text" id="zip" required placeholder="Enter zip code here">
+                        </div>
+                        <div>
+                            <label>PHONE NUMBER</label>
+                            <input type="text" id="phone" required placeholder="Register phone number here">
+                        </div>
+                    </div>
+
+                    <div class="auth-row">
+                        <div>
+                            <label>EMAIL</label>
+                            <input type="email" id="signupEmail" required placeholder="Register email here">
+                        </div>
+                        <div>
+                            <label>PASSWORD</label>
+                            <input type="password" id="signupPassword" required placeholder="Register password here">
+                        </div>
+                        <div>
+                            <label>CONFIRM PASSWORD</label>
+                            <input type="password" id="confirmPassword" required placeholder="Re-enter password">
+                        </div>
+                    </div>
+
+                    <button class="auth-submit">Sign Up ⟶</button>
+                </form>
+            </div>
+        </div>
+    </div>
+        <script src="FFD.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="tempLogo2.png">
+    <link rel="stylesheet" href="FFD.css">
+	<title>Frenemies Fine Dining</title>
+    <script src="FFD.js" defer></script>
+</head>
+<body class="cart-page">
+	<header class="site-header">
+            <div class="logo">
+                <img src="tempLogo2.png" alt="Logo icon">
+                <a href="FFD.html" class="returnMainPage">Frenemies Fine Dining</a>
+            </div>
+
+            <nav class="main-nav">
+                <a href="ShopFFD.html">SHOP</a>
+                <a href="AboutFFD.html">ABOUT</a>
+                <a href="ReviewsFFD.html">REVIEWS</a>
+                <a href="ContactFFD.html">CONTACT</a>
+            </nav>
+
+            <div class="header-acts">
+                <button class="cart-btn" onclick="window.location.href='CartFFD.html'">
+                    🛒
+                    <span id="cartCount">0</span>
+                </button>
+                <button class="login-btn" onclick="window.location.href='LoginFFD.html'">Log In</button>
+            </div>
+    </header>
+
+    <section class="cart-content">
+
+        <div class="cart-left">
+            <h1>Your Cart</h1>
+            <p>Review your order before checking out</p>
+        </div>
+        
+        <div class="cart-summary">
+            <h2>Order Summary</h2>
+
+            <div class="summary-row">
+                <span>Subtotal</span>
+                <span><!--REFER TO JS--></span>
+            </div>
+            <div class="summary-row">
+                
+                <span>Delivery Fee</span>
+                <span><!--REFER TO JS--></span>
+            </div>
+            <div class="summary-row discount">
+                <span>Discount</span>
+                <!--DON'T REMOVE, NO DISCOUNT FEATURE-->
+                <span>-₱0.00</span>
+            </div>
+            <div class="summary-total">
+                <span>Total</span>
+                <span><!--REFER TO JS--></span>
+            </div>
+
+            <div class="promo-box">
+                <input type="text" placeholder="Promo code">
+                <!--DON'T REMOVE, NO VOUCER CODE FEATURE?-->
+                <button>Apply</button>
+            </div>
+
+            <div class="cart-summary-btns">
+                <button class="return-btn" onclick="window.location.href='ShopFFD.html'">⟵ Return to Shop</button>
+                <button class="proceed-btn" id="checkoutBtn" onclick="window.location.href='CheckoutFFD.html'">Proceed to Checkout ⟶</button>
+            </div>
+
+            <div class="reward-box">
+                <!--REFER TO JS-->
+            </div>
+
+        </div>
+        
+    </section>
+
+</body>
+</html>

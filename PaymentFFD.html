@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="tempLogo2.png">
+    <link rel="stylesheet" href="FFD.css">
+	<title>Frenemies Fine Dining</title>
+    <script src="FFD.js" defer></script>
+</head>
+<body class="checkout-page">
+	<header class="site-header">
+            <div class="logo">
+                <img src="tempLogo2.png" alt="Logo icon">
+                <a href="FFD.html" class="returnMainPage">Frenemies Fine Dining</a>
+            </div>
+
+            <nav class="main-nav">
+                <a href="ShopFFD.html">SHOP</a>
+                <a href="AboutFFD.html">ABOUT</a>
+                <a href="ReviewsFFD.html">REVIEWS</a>
+                <a href="ContactFFD.html">CONTACT</a>
+            </nav>
+
+            <div class="header-acts">
+                <button class="cart-btn" onclick="window.location.href='CartFFD.html'">
+                    🛒
+                    <span id="cartCount">0</span>
+                </button>
+                <button class="login-btn" onclick="window.location.href='LoginFFD.html'">Log In</button>
+            </div>
+    </header>
+
+    <section class="checkout-content">
+
+        <div class="checkout-left">
+            <h1>Checkout</h1>
+            <div class="checkout-progress">
+                <div class="checkout-step done-step">
+                    <div class="step-circle done">✓</div>
+                    <span>Cart</span>
+                </div>
+
+                <div class="step-line"></div>
+
+                <div class="checkout-step done-step">
+                    <div class="step-circle done">✓</div>
+                    <span>Checkout</span>
+                </div>
+
+                <div class="step-line"></div>
+
+                <div class="checkout-step active-step">
+                    <div class="step-circle current">3</div>
+                    <span>Payment</span>
+                </div>
+
+                <div class="step-line"></div>
+
+                <div class="checkout-step">
+                    <div class="step-circle">4</div>
+                    <span>Confirm</span>
+                </div>
+            </div>
+            
+        <div class="payment-box">
+            <h2>Payment Method</h2>
+            <div class="payment-method" id="codPayment">
+                <div class="payment-left">
+                    <span class="payment-circle"></span>
+                    <p>Cash on Delivery (COD)</p>
+                </div>
+                <span class="payment-icon">💵</span>
+            </div>
+        </div>
+
+        <div class="cart-summary-btns">
+            <button class="return-btn" onclick="window.location.href='CheckoutFFD.html'">⟵ Return to Checkout</button>
+            <button class="proceed-btn" id="confirmPaymentBtn">Confirm Payment ⟶<</button>
+        </div>
+    </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="tempLogo2.png">
+    <link rel="stylesheet" href="FFD.css">
+	<title>Frenemies Fine Dining</title>
+</head>
+<body class="auth-page">
+	<header class="site-header">
+            <div class="logo">
+                <img src="tempLogo2.png" alt="Logo icon">
+                <a href="FFD.html" class="returnMainPage">Frenemies Fine Dining</a>
+            </div>
+
+            <nav class="main-nav">
+                <a href="ShopFFD.html">SHOP</a>
+                <a href="AboutFFD.html">ABOUT</a>
+                <a href="ReviewsFFD.html">REVIEWS</a>
+                <a href="ContactFFD.html">CONTACT</a>
+            </nav>
+
+            <div class="header-acts">
+                <button class="cart-btn" onclick="window.location.href='CartFFD.html'">
+                    🛒
+                    <span id="cartCount">0</span>
+                </button>
+                <button class="login-btn" onclick="window.location.href='LoginFFD.html'">Log In</button>
+            </div>
+    </header>
+
+    <div class="auth-content">
+
+        <div class="auth-left">
+            <div class="auth-brand">
+                <h1>Welcome <span>back</span> to the table</h1>
+                <p>
+                    Log In to manage your orders, track deliveries,
+                    and check your Paw Coins balance.
+                </p>
+
+                <div class="auth-features">
+                    <div class="auth-feature">
+                        <span>⛃</span>
+                        Earn Paw Coins on every purchase
+                    </div>
+                    <div class="auth-feature">
+                        <span>🚚</span>
+                        Track orders in real-time
+                    </div>
+                    <div class="auth-feature">
+                        <span>🎁</span>
+                        Exclusive member bundles & deals
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="auth-right">
+            <div class="auth-box">
+                <h2>Sign In</h2>
+                <p>
+                    Don't have an account? 
+                    <a href="SignupFFD.html">Create one here.</a>
+                </p>
+                
+                <form class="auth-form" id="loginForm">
+
+                    <label>EMAIL</label>
+                    <input type="email" id="loginEmail" required placeholder="Enter email here">
+                    <label>PASSWORD</label>
+                    <input type="password" id="loginPassword" required placeholder="Enter password here">
+
+                    <div class="forgot-link">
+                        <a href="ForgotPasswordFFD.html">Forgot password?</a>
+                    </div>
+                    <button class="auth-submit">Log In ⟶</button>
+                </form>
+            </div>
+        </div>
+    </div>
+        <script src="FFD.js"></script>
+</body>
+</html>

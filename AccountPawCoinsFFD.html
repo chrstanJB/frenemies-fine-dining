@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="tempLogo2.png">
+    <link rel="stylesheet" href="FFD.css">
+	<title>Frenemies Fine Dining</title>
+    <script src="FFD.js" defer></script>
+</head>
+<body class="auth-page">
+	<header class="site-header">
+            <div class="logo">
+                <img src="tempLogo2.png" alt="Logo icon">
+                <a href="FFD.html" class="returnMainPage">Frenemies Fine Dining</a>
+            </div>
+
+            <nav class="main-nav">
+                <a href="ShopFFD.html">SHOP</a>
+                <a href="AboutFFD.html">ABOUT</a>
+                <a href="ReviewsFFD.html">REVIEWS</a>
+                <a href="ContactFFD.html">CONTACT</a>
+            </nav>
+
+            <div class="header-acts">
+                <button class="cart-btn" onclick="window.location.href='CartFFD.html'">
+                🛒
+                <span id="cartCount">0</span>
+                </button>
+                <button class="login-btn" onclick="window.location.href='LoginFFD.html'">Account</button>
+            </div>
+    </header>
+
+    <div class="account-content">
+
+    <aside class="account-sidebar">
+
+        <div class="account-profile">
+            <div class="account-avatar">😊</div>
+            <h2 id="accountName"></h2>
+            <p id="accountEmail"></p>
+
+            <div class="pawcoins-box" id="pawCoinsBox"> </div>
+        </div>
+
+        <div class="account-menu">
+            <button class="account-menu-btn" onclick="window.location.href='AccountFFD.html'">
+               🎁 My Orders
+            </button>
+            <button class="account-menu-btn active-account-tab">
+               <span class="account-menu-btn-paw-coin">⛃</span> Paw Coins
+            </button>
+            <button class="account-menu-btn" onclick="window.location.href='AccountEditProfileFFD.html'">
+               👤 Edit Profile
+            </button>
+            <button class="account-menu-btn logout-btn" id="logoutBtn">
+                ↩ Log Out
+            </button>
+        </div>
+
+    </aside>
+
+    <main class="account-main">
+        <h1>Paw Coins</h1>
+
+    <div class="pawcoins-main-card">
+        <div class="pawcoins-top">
+            <div class="pawcoins-stat-card">
+                <h2 id="availableCoins">0</h2>
+                <p>Available Coins</p>
+            </div>
+            <div class="pawcoins-stat-card">
+                <h2 id="totalEarnedCoins">0</h2>
+                <p>Total Earned</p>
+            </div>
+        </div>
+        <div id="pawCoinsHistory"></div>
+    </div>
+    </main>
+    </div>
+</body>
+</html>

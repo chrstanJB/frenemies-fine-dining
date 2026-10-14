@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="tempLogo2.png">
+    <link rel="stylesheet" href="FFD.css">
+	<title>Frenemies Fine Dining</title>
+</head>
+<body class="shop-page">
+	<header class="site-header">
+            <div class="logo">
+                <img src="tempLogo2.png" alt="Logo icon">
+                <a href="FFD.html" class="returnMainPage">Frenemies Fine Dining</a>
+            </div>
+
+            <nav class="main-nav">
+                <a href="ShopFFD.html">SHOP</a>
+            	<a href="AboutFFD.html">ABOUT</a>
+            	<a href="ReviewsFFD.html">REVIEWS</a>
+            	<a href="ContactFFD.html">CONTACT</a>
+            </nav>
+
+            <div class="header-acts">
+                <button class="cart-btn" onclick="window.location.href='CartFFD.html'">
+                	🛒
+                	<span id="cartCount">0</span>
+            	</button>
+                <button class="login-btn" onclick="window.location.href='LoginFFD.html'">Log In</button>
+			</div>
+        </header>
+
+		<section class="shop-hero">
+			<h1>The Menu</h1>
+			<p>Gourmet selections for every frenemy in the house.</p>
+		</section>
+
+		<section class="menu-filters">
+			<button class="filter-class">FILTER:</button>
+
+			<button class="filter-btn active" data-filter="all">All</button>
+			<button class="filter-btn" data-filter="cat">🐱 Cats</button>
+			<button class="filter-btn" data-filter="dog">🐶 Dogs</button>
+			<button class="filter-btn" data-filter="bundle">🎁 Bundles</button>
+		</section>
+
+		<section class="shop-grid">
+
+			<div class="menu-card " data-category="cat">
+				<div class="menu-top cat-card">
+					<span class="food-tag cat-tag">CAT</span>
+					<div class="menu-image">
+						<img src="cat food1.png" alt="Cat Meal 1">
+					</div>
+				</div>
+				<div class="menu-info">
+						<span class="cat-info">CAT'S SIDE</span>
+						<h3>Whiskas - Chicken in Jelly</h3>
+						<p>
+							Wet cat food pouch for cats 1 year and older. Made with 100% natural 
+							ingredients, featuring chicken in jelly sauce.
+						</p>
+
+						<div class="menu-bottom">
+							<h2>₱645</h2>
+							<button data-product="Whiskas - Chicken in Jelly">+Add</button>
+						</div>
+					</div>
+			</div>
+
+			<div class="menu-card " data-category="cat">
+				<div class="menu-top cat-card">
+					<span class="food-tag cat-tag">CAT</span>
+					<div class="menu-image">
+						<img src="cat food2.png" alt="Cat Meal 2">
+					</div>
+				</div>
+				<div class="menu-info">
+						<span class="cat-info">CAT'S SIDE</span>
+						<h3>Meow Mix - Original Choice</h3>
+						<p>
+							6.3 lbs dry cat food with a blend of chicken, turkey, salmon, 
+							and ocean fish flavors. Classic American brand marketed as 100% 
+							complete nutrition.
+						</p>
+
+						<div class="menu-bottom">
+							<h2>₱630</h2>
+							<button data-product="Meow Mix - Original Choice">+Add</button>
+						</div>
+					</div>
+			</div>
+
+			<div class="menu-card " data-category="cat">
+				<div class="menu-top cat-card">
+					<span class="food-tag cat-tag">CAT</span>
+					<div class="menu-image">
+						<img src="cat food3.png" alt="Cat Meal 3">
+					</div>
+				</div>
+				<div class="menu-info">
+						<span class="cat-info">CAT'S SIDE</span>
+						<h3>ACANA - Market Medley Indoor Cat (Chicken, Trout & Salmon)</h3>
+						<p>
+							Premium dry cat food made in the USA. 4kg bag featuring high-protein kibble 
+							plus freeze-dried morsels with chicken and cranberry. Made with fresh or raw 
+							free-run chicken, trout, and salmon.
+						</p>
+
+						<div class="menu-bottom">
+							<h2>₱680</h2>
+							<button data-product="ACANA - Market Medley Indoor Cat (Chicken, Trout & Salmon)">+Add</button>
+						</div>
+					</div>
+			</div>
+
+			<div class="menu-card " data-category="cat">
+				<div class="menu-top cat-card">
+					<span class="food-tag cat-tag">CAT</span>
+					<div class="menu-image">
+						<img src="cat food4.png" alt="Cat Meal 4">
+					</div>
+				</div>
+				<div class="menu-info">
+						<span class="cat-info">CAT'S SIDE</span>
+						<h3>Goodest - Chicken Chomp Wet Cat Food</h3>
+						<p>
+							Wet pouch cat food with chicken chunks in gravy. 
+							Formulated for all life stages.
+						</p>
+
+						<div class="menu-bottom">
+							<h2>₱625</h2>
+							<button data-product="Goodest - Chicken Chomp Wet Cat Food">+Add</button>
+						</div>
+					</div>
+			</div>
+
+			<div class="menu-card " data-category="cat">
+				<div class="menu-top cat-card">
+					<span class="food-tag cat-tag">CAT</span>
+					<div class="menu-image">
+						<img src="cat food5.png" alt="Cat Meal 5">
+					</div>
+				</div>
+				<div class="menu-info">
+						<span class="cat-info">CAT'S SIDE</span>
+						<h3>Petsup - Complete Nutrition Dry Cat Food (Salmon Flavor)</h3>
+						<p>
+							1kg new & improved formula for cats 3 months and older. Contains salmon, chicken, 
+							raw meaty bones, egg yolk, fish oil (Omega-3), broccoli, cranberry, celery, and 
+							carrot. Mixed with freeze-dried chunks.
+						</p>
+
+						<div class="menu-bottom">
+							<h2>₱635</h2>
+							<button data-product="Petsup - Complete Nutrition Dry Cat Food (Salmon Flavor)">+Add</button>
+						</div>
+					</div>
+			</div>
+
+			<div class="menu-card " data-category="cat">
+				<div class="menu-top cat-card">
+					<span class="food-tag cat-tag">CAT</span>
+					<div class="menu-image">
+						<img src="cat food6.png" alt="Cat Meal 6">
+					</div>
+				</div>
+				<div class="menu-info">
+						<span class="cat-info">CAT'S SIDE</span>
+						<h3>Special Cat (Monge) - Chicken & Turkey</h3>
+						<p>
+							High-premium dry cat food. 1.5kg bag with 32% protein and 13% fat. 
+							Features FOS-MOS probiotics, calcium & phosphorus, taurine, and 
+							supports all life stages.
+						</p>
+
+						<div class="menu-bottom">
+							<h2>₱650</h2>
+							<button data-product="Special Cat (Monge) - Chicken & Turkey">+Add</button>
+						</div>
+					</div>
+			</div>
+
+			<div class="menu-card " data-category="cat">
+				<div class="menu-top cat-card">
+					<span class="food-tag cat-tag">CAT</span>
+					<div class="menu-image">
+						<img src="cat food7.png" alt="Cat Meal 7">
+					</div>
+				</div>
+				<div class="menu-info">
+						<span class="cat-info">CAT'S SIDE</span>
+						<h3>Goodest - Tasty Tuna Dry Cat Food</h3>
+						<p>
+							Dry cat food with a tuna flavor, enriched with natural 
+							ingredients. Designed for adult cats.
+						</p>
+
+						<div class="menu-bottom">
+							<h2>₱620</h2>
+							<button data-product="Goodest - Tasty Tuna Dry Cat Food">+Add</button>
+						</div>
+					</div>
+			</div>
+
+			<div class="menu-card " data-category="cat">
+				<div class="menu-top cat-card">
+					<span class="food-tag cat-tag">CAT</span>
+					<div class="menu-image">
+						<img src="cat food8.png" alt="Cat Meal 8">
+					</div>
+				</div>
+				<div class="menu-info">
+						<span class="cat-info">CAT'S SIDE</span>
+						<h3>Purr-fect Bisque</h3>
+						<p>Premium salmon & broth bisque</p>
+
+						<div class="menu-bottom">
+							<h2>₱680</h2>
+							<button data-product="Purr-fect Bisque">+Add</button>
+						</div>
+					</div>
+			</div>
+
+			<div class="menu-card " data-category="cat">
+				<div class="menu-top cat-card">
+					<span class="food-tag cat-tag">CAT</span>
+					<div class="menu-image">
+						<img src="cat food9.png" alt="Cat Meal 9">
+					</div>
+				</div>
+				<div class="menu-info">
+						<span class="cat-info">CAT'S SIDE</span>
+						<h3>Meow Minestrone</h3>
+						<p>Garden vegetation & chicken broth</p>
+
+						<div class="menu-bottom">
+							<h2>₱620</h2>
+							<button data-product="Meow Minestrone">+Add</button>
+						</div>
+					</div>
+			</div>
+
+			<div class="menu-card " data-category="cat">
+				<div class="menu-top cat-card">
+					<span class="food-tag cat-tag">CAT</span>
+					<div class="menu-image">
+						<img src="cat food10.png" alt="Cat Meal 10">
+					</div>
+				</div>
+				<div class="menu-info">
+						<span class="cat-info">CAT'S SIDE</span>
+						<h3>Kitty Carbonara</h3>
+						<p>Chicken & egg yolk grain free pasta</p>
+
+						<div class="menu-bottom">
+							<h2>₱660</h2>
+							<button data-product="Kitty Carbonara">+Add</button>
+						</div>
+					</div>
+			</div>
+
+
+			<div class="menu-card " data-category="dog">
+				<div class="menu-top dog-card">
+					<span class="food-tag dog-tag">DOG</span>
+					<div class="menu-image">
+						<img src="dog food1.png" alt="Dog Meal 1">
+					</div>
+				</div>
+				<div class="menu-info">
+						<span class="dog-info">DOG'S SIDE</span>
+						<h3>Bark & Braise</h3>
+						<p>Slow braise beef shank & vegetables</p>
+
+						<div class="menu-bottom">
+							<h2>₱680</h2>
+							<button data-product="Bark & Braise">+Add</button>
+						</div>
+					</div>
+			</div>
+
+			<div class="menu-card " data-category="dog">
+				<div class="menu-top dog-card">
+					<span class="food-tag dog-tag">DOG</span>
+					<div class="menu-image">
+						<img src="dog food2.png" alt="Dog Meal 2">
+					</div>
+				</div>
+				<div class="menu-info">
+						<span class="dog-info">DOG'S SIDE</span>
+						<h3>Vitality Classic - Lamb & Beef</h3>
+						<p>
+							Australian-made dry dog food for the maintenance of all adult dogs. 
+							20kg bag featuring lamb and beef as primary proteins.
+						</p>
+
+						<div class="menu-bottom">
+							<h2>₱635</h2>
+							<button data-product="Vitality Classic - Lamb & Beef">+Add</button>
+						</div>
+					</div>
+			</div>
+
+			<div class="menu-card " data-category="dog">
+				<div class="menu-top dog-card">
+					<span class="food-tag dog-tag">DOG</span>
+					<div class="menu-image">
+						<img src="dog food3.png" alt="Dog Meal 3">
+					</div>
+				</div>
+				<div class="menu-info">
+						<span class="dog-info">DOG'S SIDE</span>
+						<h3>Vitality ValueMeal - Puppy (Premium Lamb & Beef)</h3>
+						<p>
+							Hypoallergenic puppy dry food with omega oils for dairy care. No artificial colours 
+							or flavours, no chicken protein. Strengthens bones and muscles.
+						</p>
+
+						<div class="menu-bottom">
+							<h2>₱625</h2>
+							<button data-product="Vitality ValueMeal - Puppy (Premium Lamb & Beef)">+Add</button>
+						</div>
+					</div>
+			</div>
+
+			<div class="menu-card " data-category="dog">
+				<div class="menu-top dog-card">
+					<span class="food-tag dog-tag">DOG</span>
+					<div class="menu-image">
+						<img src="dog food4.png" alt="Dog Meal 4">
+					</div>
+				</div>
+				<div class="menu-info">
+						<span class="dog-info">DOG'S SIDE</span>
+						<h3>Royal Canin - Hypoallergenic Small Dogs (Veterinary Diet)</h3>
+						<p>
+							Prescription-grade dry dog food specifically formulated for small breeds 
+							with food sensitivities and allergies.
+						</p>
+
+						<div class="menu-bottom">
+							<h2>₱680</h2>
+							<button data-product="Royal Canin - Hypoallergenic Small Dogs (Veterinary Diet)">+Add</button>
+						</div>
+					</div>
+			</div>
+
+			<div class="menu-card " data-category="dog">
+				<div class="menu-top dog-card">
+					<span class="food-tag dog-tag">DOG</span>
+					<div class="menu-image">
+						<img src="dog food5.png" alt="Dog Meal 5">
+					</div>
+				</div>
+				<div class="menu-info">
+						<span class="dog-info">DOG'S SIDE</span>
+						<h3>Special Dog - Lamb & Rice</h3>
+						<p>
+							Italian complete menu dry dog food. 20 lbs / 12kg bag. Contains Omega 3 & 6, Yucca Schidigera, 
+							antioxidants, and FOS prebiotics. Promotes healthy shiny coat, high palatability, and digestibility.
+						</p>
+
+						<div class="menu-bottom">
+							<h2>₱645</h2>
+							<button data-product="Special Dog - Lamb & Rice">+Add</button>
+						</div>
+					</div>
+			</div>
+
+			<div class="menu-card " data-category="dog">
+				<div class="menu-top dog-card">
+					<span class="food-tag dog-tag">DOG</span>
+					<div class="menu-image">
+						<img src="dog food6.png" alt="Dog Meal 6">
+					</div>
+				</div>
+				<div class="menu-info">
+						<span class="dog-info">DOG'S SIDE</span>
+						<h3>Brit</h3>
+						<p>
+							Grain Free Veterinary Diet Hypoallergenic (Salmon with Pea)
+							Canned wet dog food. Limited ingredient diet for dogs with food allergies or 
+							dermatitis. Chicken protein and fat-free, using salmon protein to prevent food allergies.
+						</p>
+
+						<div class="menu-bottom">
+							<h2>₱630</h2>
+							<button data-product="Brit">+Add</button>
+						</div>
+					</div>
+			</div>
+
+			<div class="menu-card " data-category="dog">
+				<div class="menu-top dog-card">
+					<span class="food-tag dog-tag">DOG</span>
+					<div class="menu-image">
+						<img src="dog food7.png" alt="Dog Meal 7">
+					</div>
+				</div>
+				<div class="menu-info">
+						<span class="dog-info">DOG'S SIDE</span>
+						<h3>Barf Boosters - Good Gut (Gut Health Supplement)</h3>
+						<p>
+							A gut health supplement for dogs. Supports gut flora, 
+							aids toxin removal, and stabilizes digestion. Promotes balanced 
+							nutrient absorption.
+						</p>
+
+						<div class="menu-bottom">
+							<h2>₱660</h2>
+							<button data-product="Barf Boosters - Good Gut (Gut Health Supplement)">+Add</button>
+						</div>
+					</div>
+			</div>
+
+			<div class="menu-card " data-category="dog">
+				<div class="menu-top dog-card">
+					<span class="food-tag dog-tag">DOG</span>
+					<div class="menu-image">
+						<img src="dog food8.png" alt="Dog Meal 8">
+					</div>
+				</div>
+				<div class="menu-info">
+						<span class="dog-info">DOG'S SIDE</span>
+						<h3>Pedigree Puppy Chicken & Milk</h3>
+						<p>
+							Complete nutrition and balanced dry food crafted specifically for your growing furry best friend! 
+							A convenient 2.8 kg bag that combines the savory flavor of real chicken with the creamy goodness of milk, 
+							making every mealtime an absolute joy for your pup.
+						</p>
+
+						<div class="menu-bottom">
+							<h2>₱620</h2>
+							<button data-product="Pedigree Puppy Chicken & Milk">+Add</button>
+						</div>
+					</div>
+			</div>
+
+			<div class="menu-card " data-category="dog">
+				<div class="menu-top dog-card">
+					<span class="food-tag dog-tag">DOG</span>
+					<div class="menu-image">
+						<img src="dog food9.png" alt="Dog Meal 9">
+					</div>
+				</div>
+				<div class="menu-info">
+						<span class="dog-info">DOG'S SIDE</span>
+						<h3>Purina Beautiful Healthy Puppy</h3>
+						<p>
+							This is a bag of dry dog food features farm-raised chicken as the primary ingredient. 
+							The formula includes DHA to support brain and vision development alongside accents of 
+							real peas and carrots.
+						</p>
+
+						<div class="menu-bottom">
+							<h2>₱650</h2>
+							<button data-product="Purina Beautiful Healthy Puppy">+Add</button>
+						</div>
+					</div>
+			</div>
+
+			<div class="menu-card " data-category="dog">
+				<div class="menu-top dog-card">
+					<span class="food-tag dog-tag">DOG</span>
+					<div class="menu-image">
+						<img src="dog food10.png" alt="Dog Meal 10">
+					</div>
+				</div>
+				<div class="menu-info">
+						<span class="dog-info">DOG'S SIDE</span>
+						<h3>Pedigree Biscrok Multi Mix bone-shaped dog treats</h3>
+						<p>
+							Crunchy, bone-shaped biscuits for dogs. The 200g bag features three different colored treats formulated 
+							with Omega 3 and Vitamin E to support overall canine health.
+						</p>
+
+						<div class="menu-bottom">
+							<h2>₱628</h2>
+							<button data-product="Pedigree Biscrok Multi Mix bone-shaped dog treats">+Add</button>
+						</div>
+					</div>
+			</div>
+
+			<div class="menu-card " data-category="bundle">
+				<div class="menu-top bundle-card">
+					<span class="food-tag bundle-tag">BUNDLE</span>
+					<div class="menu-image">
+						<img src="bundle1.jpg" alt="Bundle 1">
+					</div>
+				</div>
+				<div class="menu-info">
+						<span class="bundle-info">BUNDLE</span>
+						<h3>Willow Hypoallergenic Bundle</h3>
+						<p>
+							A summer-themed promotional bundle featuring Willow Hypoallergenic food for both 
+							dogs and cats in large 7kg bucket containers. Grain-free and hypoallergenic.
+						</p>
+						<div class="menu-bottom">
+							<h2>₱1,210</h2>
+							<button data-product="Willow Hypoallergenic Bundle">+Add</button>
+						</div>
+					</div>
+			</div>
+
+			<div class="menu-card " data-category="bundle">
+				<div class="menu-top bundle-card">
+					<span class="food-tag bundle-tag">BUNDLE</span>
+					<div class="menu-image">
+						<img src="bundle2.jpg" alt="Bundle 2">
+					</div>
+				</div>
+				<div class="menu-info">
+						<span class="bundle-info">BUNDLE</span>
+						<h3>Goodest Cat & Dog Combo</h3>
+						<p>
+							A combo bundle featuring Goodest brand wet and dry food for both cats and dogs. 
+							Includes real fish and real meat variants served in bowls, showcasing the brand's 
+							multi-pet household appeal.
+						</p>
+						<div class="menu-bottom">
+							<h2>₱1,120</h2>
+							<button data-product="Goodest Cat & Dog Combo">+Add</button>
+						</div>
+					</div>
+			</div>
+
+			<div class="menu-card " data-category="bundle">
+				<div class="menu-top bundle-card">
+					<span class="food-tag bundle-tag">BUNDLE</span>
+					<div class="menu-image">
+						<img src="bundle3.jpg" alt="Bundle 3">
+					</div>
+				</div>
+				<div class="menu-info">
+						<span class="bundle-info">BUNDLE</span>
+						<h3>Kooky Kibble Starter Kit (Cat & Dog)</h3>
+						<p>
+							A New Zealand-made starter bundle featuring both cat and dog dry food variants. 
+							Packed with superfoods, no artificial colours & flavours. 
+						</p>
+						<div class="menu-bottom">
+							<h2>₱1,180</h2>
+							<button data-product="Kooky Kibble Starter Kit (Cat & Dog)">+Add</button>
+						</div>
+					</div>
+			</div>
+
+			<div class="menu-card " data-category="bundle">
+				<div class="menu-top bundle-card">
+					<span class="food-tag bundle-tag">BUNDLE</span>
+					<div class="menu-image">
+						<img src="bundle4.jpg" alt="Bundle 4">
+					</div>
+				</div>
+				<div class="menu-info">
+						<span class="bundle-info">BUNDLE</span>
+						<h3>MJL Steamed Chicken Liver Treats (Cat & Dog)</h3>
+						<p>
+							Steamed chicken liver treats packaged in 40-gram vacuum-sealed pouches for cats and dogs. 
+							Provide essential vitamins to support immunity, healthy skin, and eye health.
+						</p>
+						<div class="menu-bottom">
+							<h2>₱1,135</h2>
+							<button data-product="MJL Steamed Chicken Liver Treats (Cat & Dog)">+Add</button>
+						</div>
+					</div>
+			</div>
+
+			<div class="menu-card " data-category="bundle">
+				<div class="menu-top bundle-card">
+					<span class="food-tag bundle-tag">BUNDLE</span>
+					<div class="menu-image">
+						<img src="bundle5.jpg" alt="Bundle 5">
+					</div>
+				</div>
+				<div class="menu-info">
+						<span class="bundle-info">BUNDLE</span>
+						<h3>Dad's All-Paws Bundle</h3>
+						<p>
+							A complete feeding solution for households with both dogs and cats, 
+							made from local family farms. Every bag delivers 100% balanced nutrition packed 
+							with essential vitamins and real flavors to keep your entire furry family healthy and satisfied.
+						</p>
+						<div class="menu-bottom">
+							<h2>₱1,225</h2>
+							<button data-product="Dad's All-Paws Bundle">+Add</button>
+						</div>
+					</div>
+			</div>
+
+		</section>
+
+		<script src="FFD.js"></script>
+	</body>
+</html>

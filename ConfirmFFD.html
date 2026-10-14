@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="tempLogo2.png">
+    <link rel="stylesheet" href="FFD.css">
+	<title>Frenemies Fine Dining</title>
+    <script src="FFD.js" defer></script>
+</head>
+<body class="confirm-page">
+	<header class="site-header">
+            <div class="logo">
+                <img src="tempLogo2.png" alt="Logo icon">
+                <a href="FFD.html" class="returnMainPage">Frenemies Fine Dining</a>
+            </div>
+
+            <nav class="main-nav">
+                <a href="ShopFFD.html">SHOP</a>
+                <a href="AboutFFD.html">ABOUT</a>
+                <a href="ReviewsFFD.html">REVIEWS</a>
+                <a href="ContactFFD.html">CONTACT</a>
+            </nav>
+
+            <div class="header-acts">
+                <button class="cart-btn" onclick="window.location.href='CartFFD.html'">
+                    🛒
+                    <span id="cartCount">0</span>
+                </button>
+                <button class="login-btn" onclick="window.location.href='LoginFFD.html'">Log In</button>
+            </div>
+    </header>
+
+    <section class="confirm-content">
+
+        <div class="confirm-check">
+            ✓
+        </div>
+        <h1>Order Confirmed!</h1>
+        <p class="confirm-msg">
+            Your gourmet meals are being prepared with love.
+            Your frenemies will be dining in style soon!
+        </p>
+        <h3 id="orderNumber"></h3>
+        <div class="confirm-reward" id="confirmRewards">
+            
+        </div>
+
+        <div class="confirm-buttons">
+            <button class="track-btn">Track My Order</button>
+            <button class="continue-btn" onclick="window.location.href='ShopFFD.html'">Continue Shopping</button>
+        </div>
+    </section>
+</body>
+</html>
